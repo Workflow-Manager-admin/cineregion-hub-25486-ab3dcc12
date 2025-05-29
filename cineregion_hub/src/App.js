@@ -344,12 +344,9 @@ function MovieCard({ movie, onWatch }) {
       boxShadow: '0 2px 8px #10141a44',
       minWidth: 230
     }}>
-      {/* Movie cover image */}
-      <img src={
-        movie.poster
-          ? movie.poster
-          : "https://via.placeholder.com/60x88.png?text=No+Image"
-      }
+      {/* Movie cover image, always show placeholder if missing or on error */}
+      <img
+        src={movie.poster ? movie.poster : "https://via.placeholder.com/60x88.png?text=No+Image"}
         alt={`${movie.title} poster`}
         style={{
           width: 60,
@@ -359,7 +356,12 @@ function MovieCard({ movie, onWatch }) {
           marginRight: 16,
           border: '2px solid var(--kavia-orange)',
           flexShrink: 0
-        }} />
+        }}
+        onError={e => {
+          e.target.onerror = null;
+          e.target.src = "https://via.placeholder.com/60x88.png?text=No+Image";
+        }}
+      />
       <div style={{ flex: 1 }}>
         <div style={{ fontWeight: 600, fontSize: '1rem', color: 'var(--kavia-orange)' }}>{movie.title}</div>
         <div style={{ marginTop: 10 }}>
