@@ -36,6 +36,73 @@ const directorsData = {
         },
       ]
     },
+    // Newly Added Tamil Directors with placeholder filmography and images
+    {
+      name: 'Vetrimaaran',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Vetrimaaran_at_Vada_Chennai_Audio_Launch.jpg',
+      filmography: [
+        {
+          title: 'Placeholder Movie 1',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+1',
+          streamingUrl: null
+        }
+      ]
+    },
+    {
+      name: 'Ram',
+      image: 'https://via.placeholder.com/64x64?text=Ram',
+      filmography: [
+        {
+          title: 'Placeholder Movie 2',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+2',
+          streamingUrl: null
+        }
+      ]
+    },
+    {
+      name: 'Mari Selvaraj',
+      image: 'https://via.placeholder.com/64x64?text=Mari+Selvaraj',
+      filmography: [
+        {
+          title: 'Placeholder Movie 3',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+3',
+          streamingUrl: null
+        }
+      ]
+    },
+    {
+      name: 'Lokesh Kanagaraj',
+      image: 'https://via.placeholder.com/64x64?text=Lokesh+K',
+      filmography: [
+        {
+          title: 'Placeholder Movie 4',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+4',
+          streamingUrl: null
+        }
+      ]
+    },
+    {
+      name: 'Ranjith',
+      image: 'https://via.placeholder.com/64x64?text=Ranjith',
+      filmography: [
+        {
+          title: 'Placeholder Movie 5',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+5',
+          streamingUrl: null
+        }
+      ]
+    },
+    {
+      name: 'Karthik Subburaj',
+      image: 'https://via.placeholder.com/64x64?text=Karthik+S',
+      filmography: [
+        {
+          title: 'Placeholder Movie 6',
+          poster: 'https://via.placeholder.com/120x172?text=Movie+6',
+          streamingUrl: null
+        }
+      ]
+    }
   ],
   Hollywood: [
     {
