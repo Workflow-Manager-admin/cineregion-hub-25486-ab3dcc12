@@ -326,7 +326,7 @@ function DirectorCard({ director, selected, onClick }) {
 
 // PUBLIC_INTERFACE
 function MovieCard({ movie, onWatch }) {
-  /** Card-like display for a movie in filmography */
+  /** Card-like display for a movie in filmography (includes cover/ poster image) */
   return (
     <div className="movie-card" style={{
       background: 'var(--secondary, #232343)',
@@ -338,15 +338,17 @@ function MovieCard({ movie, onWatch }) {
       boxShadow: '0 2px 8px #10141a44',
       minWidth: 230
     }}>
+      {/* Movie cover image */}
       <img src={movie.poster}
-        alt={movie.title}
+        alt={`${movie.title} poster`}
         style={{
           width: 60,
           height: 88,
           borderRadius: 8,
           objectFit: 'cover',
           marginRight: 16,
-          border: '2px solid var(--kavia-orange)'
+          border: '2px solid var(--kavia-orange)',
+          flexShrink: 0
         }} />
       <div style={{ flex: 1 }}>
         <div style={{ fontWeight: 600, fontSize: '1rem', color: 'var(--kavia-orange)' }}>{movie.title}</div>
