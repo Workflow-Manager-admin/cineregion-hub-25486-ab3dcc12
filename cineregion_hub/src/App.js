@@ -1,43 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// --- Sample data for demonstration (This would come from API or DB in a real app) ---
+/*
+  --- Updated Tamil directors list with actual filmographies, director images, and movie posters ---
+*/
 const directorsData = {
   Tamil: [
-    {
-      name: 'Mani Ratnam',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Maniratnam68.jpg',
-      filmography: [
-        {
-          title: 'Roja',
-          poster: 'https://upload.wikimedia.org/wikipedia/en/5/5d/Roja_poster.jpg',
-          streamingUrl: 'https://www.youtube.com/embed/FjD2QB3GkCM'
-        },
-        {
-          title: 'Dil Se..',
-          poster: 'https://upload.wikimedia.org/wikipedia/en/1/1e/Dil_Se_poster.jpg',
-          streamingUrl: null
-        },
-      ]
-    },
-    {
-      name: 'Shankar',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Shankar_director.jpg',
-      filmography: [
-        {
-          title: 'Enthiran',
-          poster: 'https://upload.wikimedia.org/wikipedia/en/1/17/Enthiran_film_poster.jpg',
-          streamingUrl: null
-        },
-        {
-          title: 'Sivaji',
-          poster: 'https://upload.wikimedia.org/wikipedia/en/9/90/Sivaji_poster.jpg',
-          streamingUrl: 'https://www.youtube.com/embed/VEpMj-tqixs'
-        },
-      ]
-    },
-    // Newly Added Tamil Directors with real filmographies, director photos, and cover photos
-
     // VETRIMAARAN
     {
       name: 'Vetrimaaran',
