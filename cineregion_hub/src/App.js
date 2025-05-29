@@ -339,7 +339,11 @@ function MovieCard({ movie, onWatch }) {
       minWidth: 230
     }}>
       {/* Movie cover image */}
-      <img src={movie.poster}
+      <img src={
+        movie.poster
+          ? movie.poster
+          : "https://via.placeholder.com/60x88.png?text=No+Image"
+      }
         alt={`${movie.title} poster`}
         style={{
           width: 60,
