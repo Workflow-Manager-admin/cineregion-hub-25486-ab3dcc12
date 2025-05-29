@@ -1,9 +1,11 @@
 :root {
   --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
+  --kavia-dark: #1A1A2E;
   --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --text-secondary: rgba(255, 255, 255, 0.75);
+  --border-color: rgba(255, 255, 255, 0.13);
+  --secondary: #16213e;
+  --accent: #dbf702; /* accent for branding buttons */
 }
 
 body {
