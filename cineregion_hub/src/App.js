@@ -36,69 +36,196 @@ const directorsData = {
         },
       ]
     },
-    // Newly Added Tamil Directors with placeholder filmography and images
+    // Newly Added Tamil Directors with real filmographies, director photos, and cover photos
+
+    // VETRIMAARAN
     {
       name: 'Vetrimaaran',
       image: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Vetrimaaran_at_Vada_Chennai_Audio_Launch.jpg',
       filmography: [
         {
-          title: 'Placeholder Movie 1',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+1',
+          title: 'Polladhavan',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/b/bf/Polladhavan_poster.jpg',
           streamingUrl: null
+        },
+        {
+          title: 'Aadukalam',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/6/6d/Aadukalam_poster.jpg',
+          streamingUrl: 'https://www.youtube.com/embed/XvG9pBoL_9A'
+        },
+        {
+          title: 'Visaranai',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/3/3e/Visaranai_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Vada Chennai',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/2/20/Vada_Chennai_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Asuran',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/9/99/Asuran_poster.jpg',
+          streamingUrl: 'https://www.youtube.com/embed/C1Z7qKpUZjE'
         }
       ]
     },
+
+    // RAM
     {
       name: 'Ram',
-      image: 'https://via.placeholder.com/64x64?text=Ram',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Ram_%28Tamil_director%29.jpg',
       filmography: [
         {
-          title: 'Placeholder Movie 2',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+2',
+          title: 'Kattradhu Thamizh',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/9/93/Kattradhu_Thamizh.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Thanga Meengal',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/4/4d/Thanga_Meengal_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Taramani',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/a/ac/Taramani_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Peranbu',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/8/8e/Peranbu_poster.jpg',
           streamingUrl: null
         }
       ]
     },
+
+    // MARI SELVARAJ
     {
       name: 'Mari Selvaraj',
-      image: 'https://via.placeholder.com/64x64?text=Mari+Selvaraj',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Mari_Selvaraj_Director.png',
       filmography: [
         {
-          title: 'Placeholder Movie 3',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+3',
+          title: 'Pariyerum Perumal',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/a/a3/Pariyerum_Perumal_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Karnan',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/4/45/Karnan_2021_poster.jpg',
+          streamingUrl: 'https://www.youtube.com/embed/0K_kRJbU8Lo'
+        },
+        {
+          title: 'Maamannan',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/9/96/Maamannan_poster.jpg',
           streamingUrl: null
         }
       ]
     },
+
+    // LOKESH KANAGARAJ
     {
       name: 'Lokesh Kanagaraj',
-      image: 'https://via.placeholder.com/64x64?text=Lokesh+K',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Lokesh_Kanagaraj.jpg',
       filmography: [
         {
-          title: 'Placeholder Movie 4',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+4',
+          title: 'Maanagaram',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/3/37/Maanagaram_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Kaithi',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/d/d8/Kaithi_film_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Master',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/0/06/Master_2021_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Vikram',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/5/5a/Vikram_film_poster.jpg',
+          streamingUrl: 'https://www.youtube.com/embed/OKBMCL-frPU'
+        },
+        {
+          title: 'Leo',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/f/f6/Leo_2023_film_poster.jpg',
           streamingUrl: null
         }
       ]
-    },
+    },  
+
+    // PA. RANJITH
     {
       name: 'Ranjith',
-      image: 'https://via.placeholder.com/64x64?text=Ranjith',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Pa._Ranjith_-_Wikipedia_%28cropped%29.jpg',
       filmography: [
         {
-          title: 'Placeholder Movie 5',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+5',
+          title: 'Attakathi',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/8/87/Attakathi.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Madras',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/7/7e/Madras_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Kabali',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/3/38/Kabali_film_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Kaala',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/e/e8/Kaala_%282018_film%29_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Sarpatta Parambarai',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/4/4e/Sarpatta_Parambarai_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Natchathiram Nagargiradhu',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/c/c0/Natchathiram_Nagargiradhu_poster.jpg',
           streamingUrl: null
         }
       ]
     },
+
+    // KARTHIK SUBBARAJ
     {
       name: 'Karthik Subburaj',
-      image: 'https://via.placeholder.com/64x64?text=Karthik+S',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Karthik_Subbaraj_at_Mercury_Trailer_Launch.jpg',
       filmography: [
         {
-          title: 'Placeholder Movie 6',
-          poster: 'https://via.placeholder.com/120x172?text=Movie+6',
+          title: 'Pizza',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/3/31/Pizza_2012_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Jigarthanda',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/4/42/Jigarthanda_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Iraivi',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Iraivi_film_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Petta',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/f/f1/Petta_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Jagame Thandhiram',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/f/fb/Jagame_Thandhiram_poster.jpg',
+          streamingUrl: null
+        },
+        {
+          title: 'Mahaan',
+          poster: 'https://upload.wikimedia.org/wikipedia/en/d/db/Mahaan_%282022_film%29.jpg',
           streamingUrl: null
         }
       ]
