@@ -288,7 +288,7 @@ function SectionHeader({ title }) {
 
 // PUBLIC_INTERFACE
 function DirectorCard({ director, selected, onClick }) {
-  /** Card-like display for a director */
+  /** Card-like display for a director, always shows image (with fallback) */
   return (
     <div
       onClick={onClick}
@@ -309,7 +309,9 @@ function DirectorCard({ director, selected, onClick }) {
         boxShadow: selected ? '0 2px 8px rgba(219,247,2,0.13)' : 'none'
       }}
     >
-      <img src={director.image} alt={director.name}
+      <img
+        src={director.image ? director.image : "https://via.placeholder.com/64x64.png?text=No+Image"}
+        alt={director.name}
         style={{
           width: 64,
           height: 64,
@@ -317,6 +319,10 @@ function DirectorCard({ director, selected, onClick }) {
           objectFit: 'cover',
           marginBottom: 10,
           border: selected ? '2px solid #222' : '2px solid var(--kavia-orange)'
+        }}
+        onError={e => {
+          e.target.onerror = null;
+          e.target.src = "https://via.placeholder.com/64x64.png?text=No+Image";
         }}
       />
       <span style={{ fontWeight: 500, fontSize: '1rem' }}>{director.name}</span>
